@@ -236,3 +236,4 @@
 │
 ├── docker-compose.yml              # Orquestación de contenedores
 └── README.md
+└── start.bat                       # Archivo para ejecutar todo comodamente
