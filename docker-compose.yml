@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: chromp-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - chromp-network
+
+  backend:  
+    build: ./backend
+    container_name: chromp-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+      - backend_uploads:/tmp/chromp_uploads
+    networks:
+      - chromp-network
+    environment:
+      - FLASK_ENV=development
+
+networks:
+  chromp-network:
+    driver: bridge
+
+volumes:
+  backend_uploads:
