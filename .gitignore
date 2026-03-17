@@ -107,7 +107,6 @@ backend/uploads/
 /tmp/chromp_uploads/
 *.jpg
 *.jpeg
-*.png
 *.gif
 *.webp
 !**/public/**/*.jpg
