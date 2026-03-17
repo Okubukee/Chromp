@@ -1,6 +1,4 @@
 <div align="center">
-  <br>
-  <img src="https://via.placeholder.com/200x200/667EEA/FFFFFF?text=🎨" alt="Chromp Logo" width="200"/>
   <h1>🎨 Chromp</h1>
   <p><strong>Tu generador de paletas de colores inteligente</strong></p>
   <br>
