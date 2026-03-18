@@ -5,7 +5,7 @@
   
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/versión-2.0.0-blueviolet?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/versión-1.0.0-blueviolet?style=for-the-badge" />
     <img src="https://img.shields.io/badge/estado-funcional-success?style=for-the-badge" />
     <img src="https://img.shields.io/badge/licencia-MIT-brightgreen?style=for-the-badge" />
     <img src="https://img.shields.io/badge/docker-ready-2496ED?style=for-the-badge&logo=docker" />
